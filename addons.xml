@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="mundotorrent.repository" name="MundoTorrent Repository" version="1.0.0" provider-name="by">
+<addon id="mundotorrent.repository" name="MundoTorrent Repository" version="1.0.0" provider-name="by MundoTorrent">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -51,8 +51,8 @@
 
 <addon id="plugin.video.mundotorrent"
        name="[COLOR red][B]MundoTorrent[/B][/COLOR]"
-       version="0.0.1"
-       provider-name="by">
+       version="1.0.0"
+       provider-name="by MundoTorrent">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -74,12 +74,10 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-
   <extension point="xbmc.addon.metadata">
     <summary>ADDON CRIADO SEM FINS LUCRATIVOS, TUDO ENCONTRADO NA INTERNET</summary>
     <description>
         FILMES, SERIES, CANAIS IPTV, DESENHOS, SHOWS E RADIOS.
-
     </description>
     <platform>all</platform>
 	<assets>
