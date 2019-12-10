@@ -84,8 +84,8 @@
     </description>
     <platform>all</platform>
 	<assets>
-<icon>https://raw.githubusercontent.com/wcease/mundotorrents/master/icon.png</icon>
-<fanart>https://raw.githubusercontent.com/wcease/mundotorrents/master/fanart.jpg</fanart>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
 </assets>
 </extension>
 </addon>
