@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="mundotorrent.repository" name="MundoTorrent Repository" version="1.0.0" provider-name="by">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl"/>
+</requires>
+	<extension point="xbmc.addon.repository" name="MundoTorrent Repository">
+		<info compressed="false">https://raw.githubusercontent.com/addonnossosonho/mundotorrent.repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/addonnossosonho/mundotorrent.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/addonnossosonho/mundotorrent.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio MundoTorrent Addon</summary>
+		<description>ESTE REPOSITORIO PREPARA O SEU KODI PARA A INSTALACAO DO ADDON MUNDOTORRENT! TENHA UM BOM DIVERTIMENTO.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.gdrive" version="0.8.35" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	<news>
+        </news>
+        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.mundotorrent"
+       name="[COLOR red][B]MundoTorrent[/B][/COLOR]"
+       version="0.0.1"
+       provider-name="by">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="plugin.video.gdrive" version="0.8.35"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>ADDON CRIADO SEM FINS LUCRATIVOS, TUDO ENCONTRADO NA INTERNET</summary>
+    <description>
+        FILMES, SERIES, CANAIS IPTV, DESENHOS, SHOWS E RADIOS.
+
+    </description>
+    <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshot000.jpg</screenshot>
+<screenshot>resources/screenshot002.jpg</screenshot>
+<screenshot>resources/screenshot003.jpg</screenshot>
+</assets>
+</extension>
+</addon>
+</addons>
